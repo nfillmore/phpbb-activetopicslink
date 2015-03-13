@@ -1,0 +1,27 @@
+{
+    "name": "nfillmore/activetopicslink",
+    "type": "phpbb-extension",
+    "description": "Add prominent 'Active topics' link",
+    "homepage": "https://github.com/nfillmore/",
+    "version": "0.1.0",
+    "time": "2015-03-12",
+    "license": "GPL-2.0",
+    "authors": [{
+            "name": "Nate Fillmore",
+            "email": "seemygithubprofile@example.com",
+            "homepage": "https://github.com/nfillmore/",
+            "role": "Lead Developer"
+        }],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpbb/epv": "dev-master"
+    },
+    "extra": {
+        "display-name": "Extension to add prominent Active Topics link",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.0-RC2,<3.2.*@dev"
+        }
+    }
+}
